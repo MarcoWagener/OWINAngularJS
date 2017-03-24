@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body ng-controller="indexController">
+    <div>
+        Welcome
+    </div>
+
+    <a href="#/login">Login</a>
+
+    <div data-ng-view="">
+    </div>
+
+    <script src="Asset/Scripts/angular.js"></script>
+    <script src="Asset/Scripts/angular-route.js"></script>
+    <script src="Asset/Scripts/angular-local-storage.min.js"></script>
+
+    <script src="Modules/app.js"></script>
+
+    <script src="Modules/Services/authenticationService.js"></script>
+    <script src="Modules/Services/authData.js"></script>    
+    <script src="Modules/Services/loginService.js"></script>
+
+    <script src="Modules/Controllers/indexController.js"></script>
+    <script src="Modules/Controllers/loginController.js"></script>
+</body>
+</html>
